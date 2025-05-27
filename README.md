@@ -92,8 +92,7 @@ AS-REP Roasting is a Kerberos attack targeting accounts that **do not require pr
 
 ## 🧑‍💻 Author
 
-* Scripted by \[Your Name/Handle]
-* Contact: \[[email@example.com](mailto:email@example.com)] (optional)
+* Scripted by \ElusiveHacker
 
 ---
 
