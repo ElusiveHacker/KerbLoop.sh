@@ -49,7 +49,7 @@ All results are saved under the `asrep_outputs` directory:
 * **`asrep_hashes.txt`** — Contains extracted AS-REP hashes (for offline cracking)
 * **`<timestamp>_asrep_report.txt`** — Detailed execution report
 * **`asrep_roast.log`** — Logging file
-
+Note: Make sure, that the user file input does not contain spaces.
 ---
 
 ## ✅ Requirements
