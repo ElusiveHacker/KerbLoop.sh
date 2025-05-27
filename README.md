@@ -1,4 +1,4 @@
-Here's a comprehensive `README.md` file in Markdown format for your `asrep_roast.sh` script:
+Here's a comprehensive `README.md` file in Markdown format for your `KerbLoop.sh` script:
 
 ---
 
@@ -22,7 +22,7 @@ This script automates the enumeration of AS-REP roastable user accounts in an Ac
 ## 🚀 Usage
 
 ```bash
-./asrep_roast.sh -u <users_file> -i <dc_ip> -d <domain>
+./KerbLoop.sh -u <users_file> -i <dc_ip> -d <domain>
 ```
 
 ### 🔧 Options
@@ -37,7 +37,7 @@ This script automates the enumeration of AS-REP roastable user accounts in an Ac
 ### 📌 Example
 
 ```bash
-sudo ./asrep_roast.sh -u users.txt -i 10.10.10.192 -d BLACKFIELD.local
+sudo ./KerbLoop.sh -u users.txt -i 10.10.10.192 -d BLACKFIELD.local
 ```
 
 ---
@@ -49,7 +49,6 @@ All results are saved under the `asrep_outputs` directory:
 * **`asrep_hashes.txt`** — Contains extracted AS-REP hashes (for offline cracking)
 * **`<timestamp>_asrep_report.txt`** — Detailed execution report
 * **`asrep_roast.log`** — Logging file
-Note: Make sure, that the user file input does not contain spaces.
 ---
 
 ## ✅ Requirements
@@ -62,12 +61,12 @@ Note: Make sure, that the user file input does not contain spaces.
 * 🧰 Dependencies:
 
   * `bash`, `ping`, `nc`, `tee`
-
 ---
 
 ## 🛑 Notes
 
 * The script must be run as **root**.
+* Make sure, that the user file input does not contain spaces.
 * Validates:
 
   * IP address format
